@@ -6,6 +6,7 @@ If you want to install VScode on your own device, go to the [Visual Studio Code 
 When VScode is installed, your should be able to open it and see something similar to this: 
 ![Image](img/Screen%20Shot%202023-01-12%20at%2011.11.45%20AM.png)
 
+<div style="page-break-after: always;"></div>
 
 ## Remotely Connecting
 Type `ssh cs15lwi23XXX@ieng6.ucsd.edu` into terminal, replace XXX with your own account letters. 
@@ -39,6 +40,7 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 
 Below is an exapmle of the full process of remotely connecting: 
 ![Image](img/Screen%20Shot%202023-01-12%20at%2010.30.43%20AM.png)
+<div style="page-break-after: always;"></div>
 
 ## Trying Some Commands
 Now that you are connected to a remote computer, try commands to nagivate around the computer. Below are some examples of the commands you might use. 
