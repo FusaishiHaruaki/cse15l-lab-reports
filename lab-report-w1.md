@@ -41,7 +41,7 @@ Below is a full process of remotely connecting:
 ![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2010.30.43%20AM.png)
 
 ## Trying Some Commands
-Trying commands such as:
+Now that you are connected to a remote computer, try commands to nagivate around the computer. Below are some examples of the commands you might use. 
 ```
 ls
 ls -a
