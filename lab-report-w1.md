@@ -2,6 +2,7 @@
 
 ## Installing VScode
 VScode was already installed on computer. 
+![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2011.11.45%20AM.png)
 
 ## Remotely Connecting
 Type `ssh cs15lwi23XXX@ieng6.ucsd.edu` into terminal, replace XXX with your own account letters. 
