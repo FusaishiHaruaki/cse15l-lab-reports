@@ -4,7 +4,7 @@
 You can use VScode on lab computers which are already installed. 
 If you want to install VScode on your own device, go to the [Visual Studio Code website](https://code.visualstudio.com/), and follow the instructions there to download and install VScode on your computer.
 When VScode is installed, your should be able to open it and see something similar to this: 
-![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2011.11.45%20AM.png)
+![Image](img/Screen%20Shot%202023-01-12%20at%2011.11.45%20AM.png)
 
 
 ## Remotely Connecting
@@ -38,7 +38,7 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
 
 Below is a full process of remotely connecting: 
-![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2010.30.43%20AM.png)
+![Image](img/Screen%20Shot%202023-01-12%20at%2010.30.43%20AM.png)
 
 ## Trying Some Commands
 Now that you are connected to a remote computer, try commands to nagivate around the computer. Below are some examples of the commands you might use. 
@@ -51,4 +51,4 @@ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 exit
 ```
 For example, typing `cd ..` then `ls -lat` lists all files and folders in the parent directory with details in size, modification date, permissions etc.
-![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2010.35.48%20AM.png)
+![Image](img/Screen%20Shot%202023-01-12%20at%2010.35.48%20AM.png)
