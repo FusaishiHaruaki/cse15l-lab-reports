@@ -37,7 +37,7 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 ```
 
-Below is a full process of remotely connecting: 
+Below is an exapmle of the full process of remotely connecting: 
 ![Image](img/Screen%20Shot%202023-01-12%20at%2010.30.43%20AM.png)
 
 ## Trying Some Commands
