@@ -45,4 +45,7 @@ ls -a
 ls -lat
 cd 
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+exit
 ```
+Results shows for the remotely accessed computer: 
+![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2010.35.48%20AM.png)
