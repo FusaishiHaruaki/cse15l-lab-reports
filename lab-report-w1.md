@@ -10,14 +10,14 @@ When VScode is installed, your should be able to open it and see something simil
 ## Remotely Connecting
 Type `ssh cs15lwi23XXX@ieng6.ucsd.edu` into terminal, replace XXX with your own account letters. 
 
-If this is your first time connecting, your will see messages similar to: 
-```
+> If this is your first time connecting, your will see messages similar to: 
+> ```
 ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
-type `yes` and press enter. 
+> type `yes` and press enter. 
 
 Enter your password when prompted. 
 After seeing messages similar to below, the terminal is successful connected to a CSE basement computer. 
