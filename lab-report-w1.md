@@ -16,6 +16,27 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 type `yes` and press enter. 
 
+Enter your password when prompted. 
+After seeing messages similar to below, the terminal is successful connected to a CSE basement computer. 
+```
+Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
+quota: No filesystem specified.
+Hello cs15lwi23zz, you are currently logged into ieng6-203.ucsd.edu
+
+You are using 0% CPU on this system
+
+Cluster Status 
+Hostname     Time    #Users  Load  Averages  
+ieng6-201   23:25:01   0  0.08,  0.17,  0.11
+ieng6-202   23:25:01   1  0.09,  0.15,  0.11
+ieng6-203   23:25:01   1  0.08,  0.15,  0.11
+
+Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
+```
+
+Below is a full process of remotely connecting: 
+![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2010.30.43%20AM.png)
+
 ## Trying Some Commands
 Trying commands such as:
 ```
