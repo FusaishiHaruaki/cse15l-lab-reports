@@ -2,7 +2,7 @@
 
 ## Installing VScode
 You can use VScode on lab computers which are already installed. 
-If you want to install VScode on your own device, go to the Visual Studio Code website: [Link](https://code.visualstudio.com/), and follow the instructions there to download and install VScode on your computer.
+If you want to install VScode on your own device, go to the [Visual Studio Code website](https://code.visualstudio.com/), and follow the instructions there to download and install VScode on your computer.
 When VScode is installed, your should be able to open it and see something similar to this: 
 ![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2011.11.45%20AM.png)
 
