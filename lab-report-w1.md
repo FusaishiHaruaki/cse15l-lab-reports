@@ -1,8 +1,11 @@
 # CSE 15l lab report week 1 - Remote access
 
 ## Installing VScode
-VScode was already installed on computer. 
+You can use VScode on lab computers which are already installed. 
+If you want to install VScode on your own device, go to the Visual Studio Code website: [Link](https://code.visualstudio.com/), and follow the instructions there to download and install VScode on your computer.
+When VScode is installed, your should be able to open it and see something similar to this: 
 ![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2011.11.45%20AM.png)
+
 
 ## Remotely Connecting
 Type `ssh cs15lwi23XXX@ieng6.ucsd.edu` into terminal, replace XXX with your own account letters. 
@@ -47,5 +50,5 @@ cd
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 exit
 ```
-Results shows for the remotely accessed computer: 
+For example, typing `cd ..` then `ls -lat` lists all files and folders in the parent directory with details in size, modification date, permissions etc.
 ![Image](https://github.com/FusaishiHaruaki/cse15l-lab-reports/blob/main/img/Screen%20Shot%202023-01-12%20at%2010.35.48%20AM.png)
