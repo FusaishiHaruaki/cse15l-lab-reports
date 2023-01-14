@@ -1,4 +1,7 @@
-Hello, world! [labReport](lab-report-w1.md)
+Hello, world! 
+
+Here is the [labReport](lab-report-w1.md)
+
 # This is a heading
 ## This is also a heading
 > This is a quote
