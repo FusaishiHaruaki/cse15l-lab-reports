@@ -3,6 +3,8 @@
 ## Part1 
 
 
+<div style="page-break-after: always;"></div>
+
 ## Part2
 `reverse` method in `ArrayTests` class:
 
