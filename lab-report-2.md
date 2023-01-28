@@ -2,6 +2,52 @@
 
 ## Part1 
 
+Server that allows for storing and printing strings given by the query of website: 
+
+```
+class Handler implements URLHandler {
+    String str = "";
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/add-message")){
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+                str = str +  parameters[1] + "\n";
+                return str;
+            }
+        }
+        return "404 error";
+    }
+}
+```
+### Adding and displaying a message:  
+
+![Image](img/reportImages-2/part1-web1.png)
+
+Methods called: `handleRequest()`; `url.getPath.equals()`; `url.getQuery().split()` 
+
+Arguments: `handleRequest()` takes in the website url (as on top of the image above) as string; `url.getPath.equals()` compares the path of the url with the given string argument `"/add-message"` and returns true if same; `url.getQuery().split()` gets the query part from the url and split it into two strings with the argument `"="`, storing the strings in the parameters array. 
+
+Changed values: 
+`url` now stores `"localhost8888/add-message?s=B"`
+`parameters` is initiliazed and set to [s, B]
+`str` changed from `""` to `"B\n"`. 
+
+
+
+### Adding and displaying the second message: 
+
+![Image](img/reportImages-2/part1-web2.png)
+
+The methods and Arguments are similar to those above: 
+
+Methods called: `handleRequest()`; `url.getPath.equals()`; `url.getQuery().split()` 
+
+Arguments: `handleRequest()` takes in the website url (as on top of the image above) as string; `url.getPath.equals()` compares the path of the url with the given string argument `"/add-message"` and returns true if same; `url.getQuery().split()` gets the query part from the url and split it into two strings with the argument `"="`, storing the strings in the parameters array. 
+
+`url` now stores `"localhost8888/add-message?s=Hello world"`
+`parameters` is initiliazed again and set to [s, Hello world]
+The value in `str` is updated from `"B\n"` to `"B\nHello world\n"`. As str stores the original `"B\n"` from last call, and appends `"Hello world\n"` at the end to update the displayed string. 
+
 
 <div style="page-break-after: always;"></div>
 
@@ -54,5 +100,5 @@ To fix the bug, the values in the input array `arr` need to be copied into `newA
 ![Image](img/reportImages-2/part2-rightmethod.png)
 
 ## Part3
-I never knew how to set up a server that can be accessed through other computers. I also didn't knew the paths and queries existed, and that I could read them using java.
+I never knew how to set up a server that can be accessed through other computers. I also didn't knew the paths and queries existed, and that I could read them using java. I now learned how to set up servers using Java which can handle easy queries through different inputs in the url. 
 
