@@ -1,6 +1,7 @@
 Hello, world!  
 
 [Week 1 lab report](lab-report-w1.md)
+
 [Week 3 lab report](lab-report-2.md)
 
 # This is a heading
