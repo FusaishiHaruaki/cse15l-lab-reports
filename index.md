@@ -4,6 +4,8 @@ Hello, world!
 
 [Week 3 lab report](lab-report-2.md)
 
+[Week 5 lab report](lab-report-3.md)
+
 # This is a heading
 ## This is also a heading
 > This is a quote
