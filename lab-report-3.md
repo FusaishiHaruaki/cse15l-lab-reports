@@ -17,6 +17,8 @@ Using the `-iname` option in searching for a `.txt` file:
 Using the `-iname` option in searching for a directory: 
 ![](img/reportImages_3/find_iname_dir.png)
 
+<div style="page-break-after: always;"></div>
+
 
 ### -type
 The `-type` option specifies the type of files found and returned. A few of the arguments include: f - regular file; d - directory. This is useful as when searching for files or directories, one may want to look for specific types of files. 
@@ -29,6 +31,9 @@ Using the `-type` option in searching for all `.txt` files in the `written_2` di
 Using the `-type- option in searching for all directories in the `written_2` directory
 ![image](img/reportImages_3/find_type_dir.png)
 
+<div style="page-break-after: always;"></div>
+
+
 ### -path 
 The `-path` option takes the argument as a path and find all files matching the given path. This is useful when parts of the path or directories are known but not the full path from the root directory. 
 
@@ -39,6 +44,9 @@ Using the `-path` option in searching for `.txt` files in directoreis named `OUP
 
 Using the `-path` option in searching for directories named `Berk`
 ![image](img/reportImages_3/find_path_dir.png)
+
+<div style="page-break-after: always;"></div>
+
 
 ### -size 
 The `-size` option specifies the size limits to the files and directories being searched for. This is useful when one's looking for files or directories within some range of sizes. 
