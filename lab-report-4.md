@@ -32,14 +32,21 @@ google `timer` and press start
 <div style="page-break-after: always;"></div>
 
 ## 4. Log into ieng6
+`ssh cs15lwi23aev@ieng6.ucsd.edu` - log into ieng6
 
 <div style="page-break-after: always;"></div>
 
 ## 5. Clone your fork of the repository from your Github account
 
+`git clone <ctrl-C>` - clone with the link copied from the forked repository. 
+`ls` - show that the repository have been cloned to the remote machine. 
+
 <div style="page-break-after: always;"></div>
 
 ## 6. Run the tests, demonstrating that they fail
+
+`cd CSE<tab>` - cd into the cloned file. Use tab to auto complete the typing. 
+
 
 <div style="page-break-after: always;"></div>
 
