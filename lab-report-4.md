@@ -62,8 +62,6 @@ google `timer` and press start
 
 `vim L<tab><enter>` - open the file `ListExamples.java` through vim. 
 
-![Image](img/reportImages-4/lab-7-0.png)
-
 `i` - go to insert mode in vim. 
 
 `<down>` - repeat 42 times to get to the line that needs to be changed
