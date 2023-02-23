@@ -62,7 +62,7 @@ google `timer` and press start
 
 `vim L<tab><enter>` - open the file `ListExamples.java` through vim. 
 
-![Image](img/reportImages-4/lab7-7-0.png)
+![Image](img/reportImages-4/lab-7-0.png)
 
 `i` - go to insert mode in vim. 
 
