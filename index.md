@@ -6,7 +6,11 @@ Hello, world!
 
 [Week 5 lab report](lab-report-3.md)
 
-[Week 7 lab report](lab-report-4.md)_
+[Week 7 lab report](lab-report-4.md)
+
+[Week 9 lab report](lab-report-5.md)
+
+
 
 # This is a heading
 ## This is also a heading
